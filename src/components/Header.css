@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 100px 0;
+  background-image: url("https://cdn.wallpapersafari.com/97/77/9PnpDR.jpg");
+  border-radius: 10px;
+  box-shadow: 0 0 16px 16px black inset;
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */ url(https://wallpaperaccess.com/full/2063931.jpg);
+}
+
+.header label {
+  margin-top: 2rem;
+  margin-bottom: 0.4rem;
+  display: block;
+  font-weight: bold;
+}
+
+.header input {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+.movieDetail {
+  color: white;
+  height: 100vh;
+}
+
+.movieDetail img {
+  max-height: 40rem;
+  box-shadow: 0 0 20px 20px black inset;
+}

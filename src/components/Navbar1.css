@@ -1,0 +1,8 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.navlink {
+  color: white !important;
+  text-decoration: none;
+}

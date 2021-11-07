@@ -1,0 +1,10 @@
+.root {
+  background: linear-gradient(
+    to top,
+    rgba(5, 5, 117, 0.671),
+    20%,
+    black
+  ) !important;
+  color: white;
+  height: 100% !important;
+}

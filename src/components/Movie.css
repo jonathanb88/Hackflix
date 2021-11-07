@@ -1,0 +1,9 @@
+img {
+  transition: transform 250ms;
+  border-radius: 5px;
+}
+
+img:hover {
+  transform: translateY(-10px);
+  transform: scale(1.1);
+}
