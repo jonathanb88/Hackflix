@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import MovieDetails from "./pages/MovieDetails";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -11,14 +11,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/peliculas/:id" component={MovieDetails} />
           <Route path="/about" component={About} />
           <Route path="/search" component={Search} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
-        </Routes>
+        </Switch>
       </BrowserRouter>
     </>
   );
