@@ -1,10 +1,7 @@
 import React from "react";
 import "./Movie.css";
-import { useParams, Link } from "react-router-dom";
-import { Modal, Button, Row } from "react-bootstrap";
-import CloseButton from "react-bootstrap/CloseButton";
+import { Modal, Button } from "react-bootstrap";
 import { useState } from "react";
-import MovieDetails from "../pages/MovieDetails";
 
 function Movie({ movie }) {
   const [show, setShow] = useState(false);
