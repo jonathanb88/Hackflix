@@ -36,7 +36,7 @@ function MovieList({ title, rating, page, setPage }) {
       }
     };
     fetchData();
-    console.log(page);
+
     // eslint-disable-next-line
   }, [title, rating, page]);
   //al agregar title al final, el useEffect se va a recargar cada vez que cambie esa variable title
