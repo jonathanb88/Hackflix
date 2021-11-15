@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "../components/MovieDetails.css";
-import {Row, Col} from "react-bootstrap"
+import { Row, Col } from "react-bootstrap";
 
 function MovieDetails({ movie, title }) {
   const params = useParams();
@@ -20,7 +20,7 @@ function MovieDetails({ movie, title }) {
       setMovieInfo(data);
     };
     fetchData();
-  }, []);
+  }, [params.id]);
 
   return (
     // el operador ternario con movieInfo es para que si da truthy muestre la info, o sino el mensaje cargando

@@ -37,32 +37,33 @@ function MovieList({ title, rating, page, setPage }) {
     };
     fetchData();
     console.log(page);
+    // eslint-disable-next-line
   }, [title, rating, page]);
   //al agregar title al final, el useEffect se va a recargar cada vez que cambie esa variable title
 
   return (
     // el InfiniteScroll corresponde al componente instalado para scroll infinito
     <Container>
-    <InfiniteScroll
-      dataLength={filteredMovies.length} //This is important field to render the next data
-      next={() => setPage((prevPage) => prevPage + 1)}
-      hasMore={true}
-    >
-      <div className="container mt-3 ">
-        <div className="row g-4">
-          {filteredMovies.length > 0 ? (
-            filteredMovies.map((movie) => (
-              <div className="col-md-2">
-                <Movie movie={movie} key={movie.id} />
-              </div>
-            ))
-          ) : (
-            <p className="text-center">😢 Lo sentimos, no hay peliculas</p>
-          )}
+      <InfiniteScroll
+        dataLength={filteredMovies.length} //This is important field to render the next data
+        next={() => setPage((prevPage) => prevPage + 1)}
+        hasMore={true}
+      >
+        <div className="container mt-3 ">
+          <div className="row g-4">
+            {filteredMovies.length > 0 ? (
+              filteredMovies.map((movie) => (
+                <div className="col-md-2">
+                  <Movie movie={movie} key={movie.id} />
+                </div>
+              ))
+            ) : (
+              <p className="text-center">😢 Lo sentimos, no hay peliculas</p>
+            )}
+          </div>
+          <div></div>
         </div>
-        <div></div>
-      </div>
-    </InfiniteScroll>
+      </InfiniteScroll>
     </Container>
   );
 }
