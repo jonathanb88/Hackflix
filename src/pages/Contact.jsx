@@ -28,7 +28,7 @@ function Contact() {
           voluptates optio, ab harum? Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Maxime ullam dicta debitis. Excepturi officia vel,
           architecto maxime esse soluta aliquam maiores consequuntur ipsam!
-          Ipsam laboriosam voluptas voluptates optio, ab harum
+          Ipsam laboriosam voluptas voluptates optio, ab harum.
         </p>
       </Container>
     </div>
