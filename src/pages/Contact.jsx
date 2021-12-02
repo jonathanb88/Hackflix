@@ -19,7 +19,7 @@ function Contact() {
           sit amet consectetur adipisicing elit. Explicabo iure reprehenderit
           impedit iusto veritatis obcaecati totam eaque accusamus! Saepe ipsa,
           voluptatum eligendi quo ipsam praesentium maiores exercitationem natus
-          repellendus. Repellat
+          repellendus. Repellat.
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam
@@ -28,7 +28,7 @@ function Contact() {
           voluptates optio, ab harum? Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Maxime ullam dicta debitis. Excepturi officia vel,
           architecto maxime esse soluta aliquam maiores consequuntur ipsam!
-          Ipsam laboriosam voluptas voluptates optio
+          Ipsam laboriosam voluptas voluptates optio, ab harum?
         </p>
       </Container>
     </div>
